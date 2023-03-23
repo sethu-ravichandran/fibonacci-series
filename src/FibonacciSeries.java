@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 public class FibonacciSeries {
+
     public static void main(String[] args) {
+
+        System.out.println("Enter the input number");
 
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();
